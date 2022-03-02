@@ -1,58 +1,57 @@
-[
-  {
-    "id": 1,
-    "name": "Inicio"
-  },
-  {
-    "id": 2,
-    "name": "El refugio"
-  },
-  {
-    "id": 3,
-    "name": "Historias"
-  },
-  {
-    "id": 4,
-    "name": "Circulos Cerrados"
-  },
-  {
-    "id": 5,
-    "name": "Antes y Después"
-  },
-  {
-    "id": 6,
-    "name": "Videos"
-  },
-  {
-    "id": 7,
-    "name": "Campito Escolar"
-  },
-  {
-    "id": 8,
-    "name": "Campito Solidario"
-  },
-  {
-    "id": 9,
-    "name": "Voluntariado"
-  },
-  {
-    "id": 10,
-    "name": "Club de los disca"
-  },
-  {
-    "id": 11,
-    "name": "Club de los viejitos"
-  },
-  {
-    "id": 12,
-    "name": "Prensa"
-  },
-  {
-    "id": 13,
-    "name": "Eventos"
-  },
-  {
-    "id": 14,
-    "name": "Contacto"
-  }
-]
+{
+  "navbar": [
+    {
+      "id": 1,
+      "name": "Inicio"
+    },
+    {
+      "id": 2,
+      "name": "El refugio"
+    },
+    {
+      "id": 3,
+      "name": "Historias"
+    },
+    {
+      "id": 4,
+      "name": "Circulos Cerrados"
+    },
+    {
+      "id": 5,
+      "name": "Antes y Después"
+    },
+    {
+      "id": 6,
+      "name": "Ser voluntario"
+    },
+    {
+      "id": 7,
+      "name": "Eventos"
+    },
+    {
+      "id": 8,
+      "name": "Contacto",
+      "link": "Contact"
+    }
+  ],
+  "campito": [
+    {
+      "id": 1,
+      "name": "Campito Escolar"
+    },
+    {
+      "id": 2,
+      "name": "Campito Solidario"
+    }
+  ],
+  "club": [
+    {
+      "id": 1,
+      "name": "Club de los disca"
+    },
+    {
+      "id": 2,
+      "name": "Club de los viejitos"
+    }
+  ]
+}

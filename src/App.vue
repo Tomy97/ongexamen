@@ -1,11 +1,17 @@
 <template>
-  <Home />
+  <header>
+    <NavbarComponent/>
+  </header>
+  <main>
+    <router-view/>
+  </main>
+  <Footer/>
 </template>
 <script lang="ts">
-import Home from '@/views/Home.vue';
+import NavbarComponent from '@/components/NavbarComponent.vue'
 export default {
   components: {
-    Home
+    NavbarComponent
   }
 }
 </script>

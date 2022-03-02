@@ -1,20 +1,21 @@
-
 import axios from 'axios';
-import { onMounted, ref } from 'vue';
-import { MenuI } from './../Interface/MenuI';
+import {onMounted, ref} from 'vue';
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-const Menu = () => {
-  const menu = ref<MenuI[]>([])
-
-  const getMenus = async () => {
-    const { data } = await axios.get('api/sidebar.json');
-    menu.value = data;
-  }
-
-  onMounted(getMenus)
-  return {
-    menu
-  }
+const Menu = (): any => {
+    const navbar = ref({});
+    const campito = ref({})
+    const club = ref({})
+    const getMenus = async () => {
+        const {data} = await axios.get('api/sidebar.json');
+        navbar.value = data.navbar;
+        campito.value = data.campito;
+        club.value = data.club;
+    }
+    onMounted(getMenus)
+    return {
+        navbar,
+        campito,
+        club
+    }
 }
 export default Menu

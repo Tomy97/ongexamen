@@ -1,11 +1,15 @@
 <template>
-<div class=" footer" >
-    <h6 class="text-center">Soy el footer</h6>
-</div>
+  <footer class=" footer">
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+      </div>
+    </nav>
+  </footer>
 </template>
 
-<script lang="ts" >
-import { defineComponent } from "vue";
+<script lang="ts">
+import {defineComponent} from "vue";
 
 export default defineComponent({
   name: "Footer",
@@ -18,6 +22,6 @@ export default defineComponent({
 
 <style scoped>
 .footer {
-  height: 1vh;
+  height: 2vh;
 }
 </style>

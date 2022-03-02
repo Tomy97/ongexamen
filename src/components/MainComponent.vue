@@ -1,18 +1,5 @@
 <template>
   <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
-  <h2 class="text-center">Hola mundo</h2>
 </template>
 
 <script lang="ts">
